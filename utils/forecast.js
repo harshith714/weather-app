@@ -11,7 +11,7 @@ const forecast= (latitude,longitude,callback)=>{
             
                 }
         else{
-            callback(undefined,'it is currently '+ body.currently.temperature+ ' the place is '+body.currently.summary)
+            callback(undefined,'It is currently '+ body.currently.temperature+' Celsius. ' + 'The weather currently is '+body.currently.summary)
             }         
 
     })
